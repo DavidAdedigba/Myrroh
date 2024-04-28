@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="IE-Edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quick. Accessible. Quality</title>
+    <script src="index.js"></script>
+</head>
+<body>
+   <header>
+    <img src="icons/logo-contrast.png" alt="logo" id="logo-dup">
+    <ul>
+        <li>
+            <img src="images/myrroh-logo-attempt.png" alt="logo" id="logo">
+        </li>
+        <li>
+            <button type="button" id="early-access-btn" onClick="document.getElementById('section1').scrollIntoView()">
+                Get early access
+            </button>
+        </li>
+    </ul>
+   </header>
+
+   <main>
+    <section id="section1">
+        <div class="side1">
+            <h1>
+                A New, Convenient way to <span id="orange">Shop.</span>
+            </h1>
+            <p id="tagline">
+                Join our waitlist and be among the first to get access to our services.
+           </p>
+
+            <form>
+                <label for="name">
+                    <input name="name" id="name-el" type="text" placeholder="Enter your business name" required>
+                </label>
+                <label for="email">
+                    <input name="email" id="email-el" type="email" placeholder="Enter your email address" required>
+                </label>
+                <label for="number">
+                    <input name="number" id="number-el" type="number" minlength="11" placeholder="Enter your phone number" required>
+                </label>
+                <input type="submit" id="submit-el" value="Join waitlist">
+            </form>
+        </div>
+
+        <div class="side2">
+            <fieldset id="section1-fieldset">
+                <img src="images\background.jpg" alt="image" id="hero-img2">
+                <img id="hero-img" src="images\testing.jpg" alt="hero-image">
+            </fieldset>
+            <img src="icons\deliveryicon.png" alt="deliveryicon" id="deliveryicon">
+        </div>
+    </section>
+
+    <section id="section2">
+       <div class="side1">
+            <img src="images\mockup.png" alt="image1" id="hero-img3">
+       </div>
+        <div class="side2">
+            <h2>
+                Quick.
+                Accessible.
+                Quality.
+            </h2>
+            <table>
+               <tr>
+                <th>
+                    <i>
+                        <img src="icons\fast-delivery.png" alt="img">
+                    </i>
+                </th>
+                <th>
+                    <i>
+                        <img src="icons\low-price.png" alt="img">
+                    </i>
+                </th>
+                <th>
+                    <i>
+                        <img src="icons\quality-assurance.png" alt="img">
+                    </i>
+                </th>
+               </tr>
+               <tr>
+                <td>
+                    <b>
+                        Quick Delivery
+                    </b>
+                </td>
+                <td>
+                    <strong>
+                        Affordable Prices
+                    </strong>
+                </td>
+                <td>
+                    <strong>
+                        100% Quality
+                    </strong>
+                </td>
+               </tr>
+            </table>
+        </div>
+        <div class="side3">
+            <img src="images\mockup.png" alt="image1" id="hero-img3">
+        </div>
+    </section>
+
+    <section id="section3">
+        <h3>
+            Join Our Journey and get Early Access.
+        </h3>
+        <button type="button" id="early-access-btn" onClick="document.getElementById('section1').scrollIntoView()">
+            Join Waitlist &rarr;
+        </button>
+
+        <div id="social-media-links">
+            <a href="#" target="_blank">
+                <img src="icons/instagram.png" alt="instagram" class="icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="icons/twitter.png" alt="twitter" class="icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="icons/facebook.png" alt="facebook" class="icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="icons/linkedin.png" alt="linkedIn" class="icon">
+            </a>
+        </div>
+    </section>
+   </main>
+
+   <footer>
+    &copy; Copyright 2024, All rights reserved by Myrroh Ltd.
+   </footer>
+</body>
+</html>
