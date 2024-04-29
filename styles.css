@@ -90,6 +90,7 @@ input {
     margin:10px;
     border:1px solid #fff;
     border-radius:4px;
+    padding-left:15px;
     background-color: transparent;
     font-size:17px;
     color:#fff;
@@ -115,7 +116,12 @@ a {
 a:hover {
     filter:grayscale(100%);
 }
-
+.animate__animated.animate__fadeInLeft {
+    --animate-duration:2s;
+   }
+.animate__animated.animate__slideInUp {
+    --animate-duration:1.5s;
+}
 /* specific styling */
 #logo {
     width:7rem;
@@ -424,11 +430,12 @@ td {
        }
        h1 {
         width:100%;
-        font-size:2.5rem;
-        line-height:50px;
+        font-size:2.2rem;
+        line-height:35px;
        }
        p {
-        width:85%;
+        font-size:0.8rem;
+        width:50%;
         
        }
        form {
@@ -444,15 +451,19 @@ td {
        input[type="submit"] {
         width:90vw;
        }
+      
     
     
     
        /*Individual Selectors*/
+       #logo-dup {
+        width:5rem;
+       }
        #section1-fieldset img {
         width:85vw;
        }
        h2 {
-        font-size:5rem;
+        font-size:4.5rem;
        }
         table {
             width:90%;
@@ -462,10 +473,17 @@ td {
             width:50%;
         }
         .side3 {
-        
+            width:100vw;
+            margin:auto;
+            display:grid;
+            place-items:center;
+            align-items:center;
+            text-align:center;
+            overflow:hidden;
         }
-        .side3 img {
-          width:100%;
+        #hero-img3 {
+          width:70vw;
+          margin:auto;
         }
 }
     
