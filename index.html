@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="X-UA-Compatible" content="IE-Edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Quick. Accessible. Quality</title>
     <script src="index.js"></script>
 </head>
@@ -16,7 +17,7 @@
             <img src="images/myrroh-logo-attempt.png" alt="logo" id="logo">
         </li>
         <li>
-            <button type="button" id="early-access-btn" onClick="document.getElementById('section1').scrollIntoView()">
+            <button type="button" class="animate__animated animate__fadeIn" id="early-access-btn" onClick="document.getElementById('section1').scrollIntoView()">
                 Get early access
             </button>
         </li>
@@ -25,7 +26,7 @@
 
    <main>
     <section id="section1">
-        <div class="side1">
+        <div class="animate__animated animate__fadeInLeft side1">
             <h1>
                 A New, Convenient way to <span id="orange">Shop.</span>
             </h1>
@@ -47,7 +48,7 @@
             </form>
         </div>
 
-        <div class="side2">
+        <div class="animate__animated animate__slideInUp side2">
             <fieldset id="section1-fieldset">
                 <img src="images\background.jpg" alt="image" id="hero-img2">
                 <img id="hero-img" src="images\testing.jpg" alt="hero-image">
