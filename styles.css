@@ -434,9 +434,9 @@ td {
        
        }
        h1 {
-        padding-top:35px;
+        padding-top:50px;
         width:100%;
-        font-size:2.2rem;
+        font-size:3rem;
         line-height:35px;
        }
        p {
@@ -464,7 +464,7 @@ td {
     
        /*Individual Selectors*/
        #logo-dup {
-        width:5rem;
+        width:4.5rem;
        }
        #section1-fieldset img {
         width:85vw;
