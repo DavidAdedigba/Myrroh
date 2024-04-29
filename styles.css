@@ -434,6 +434,7 @@ td {
        
        }
        h1 {
+        padding-top:35px;
         width:100%;
         font-size:2.2rem;
         line-height:35px;
@@ -492,8 +493,8 @@ td {
           margin:auto;
         }
         h3 {
-            width:80%;
-            line-height:40px;
+            width:100%;
+            line-height:50px;
             font-size:2.5rem;
             color:#fff;
 
