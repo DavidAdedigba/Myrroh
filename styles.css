@@ -117,11 +117,16 @@ a:hover {
     filter:grayscale(100%);
 }
 .animate__animated.animate__fadeInLeft {
-    --animate-duration:2s;
+    --animate-duration:1.5s;
    }
 .animate__animated.animate__slideInUp {
-    --animate-duration:1.5s;
+    --animate-duration:1.1s;
 }
+
+
+
+
+
 /* specific styling */
 #logo {
     width:7rem;
@@ -464,7 +469,7 @@ td {
         width:85vw;
        }
        h2 {
-        font-size:4rem;
+        font-size:3.5rem;
        }
         table {
             width:90%;
@@ -485,6 +490,13 @@ td {
         #hero-img3 {
           width:70vw;
           margin:auto;
+        }
+        h3 {
+            width:80%;
+            line-height:40px;
+            font-size:2.5rem;
+            color:#fff;
+
         }
 }
     
