@@ -400,7 +400,7 @@ td {
 
 
 /*Mobile view*/
-@media screen and (max-width:520%) {
+@media (min-width: 1px) and (max-width:418px) {
     * {
         box-sizing:border-box;
     
