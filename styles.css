@@ -400,7 +400,7 @@ td {
 
 
 /*Mobile view*/
-@media (min-width: 1px) and (max-width:418px) {
+@media (min-width: 1px) and (max-width: 418px) {
     * {
         box-sizing:border-box;
     
