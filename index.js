@@ -38,3 +38,20 @@ apiInstance.createContact(createContact).then(function(data) {
   console.error(error);
 });
 */
+
+
+const formEl = document.querySelector(".form");
+
+formEl.addEventListener('submit', event => {
+	event.preventDefault();
+
+	const formData = new FormData(formEl);
+	const data = new URLSearchParams(formData);
+
+	fetch('https://api.brevo.com/v3/emailCampaigns/campaignId/sendTest', {
+		method:'POST',
+		body: data
+	}).then(res => res.json())
+	.then(data => console.log(data))
+	.catch(error => console.log(error));
+})
