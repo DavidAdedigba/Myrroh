@@ -39,7 +39,25 @@ apiInstance.createContact(createContact).then(function(data) {
 });
 */
 
+function App() {
+  const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
+  const handleSubmit = (values, { setSubmitting }) => {
+    setLoading(true);
+    axios
+      .post("https://waitlistapi.zenfipay.com/subscribe", {
+        email: values.email,
+      })
+      .then((e) => {
+          setLoading(false);
+          setSubmitted(true);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+    setSubmitting(false);
+  };
 const formEl = document.querySelector(".form");
 
 formEl.addEventListener('submit', event => {
